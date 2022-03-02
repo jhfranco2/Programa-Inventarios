@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Table(name="empleados")
 
-public class Empleado {
+public class Empleado  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
